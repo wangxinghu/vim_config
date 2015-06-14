@@ -10,6 +10,9 @@ let g:neocomplcache_enable_underbar_completion = 1
 let g:neocomplcache_enable_auto_delimiter = 1
 let g:neocomplcache_max_list = 15
 let g:neocomplcache_force_overwrite_completefunc = 1
+" 不折叠
+set foldlevelstart=9999
+set foldlevel=9999
 " nerdtree 在打开文件时不自动退出
 let NERDTreeQuitOnOpen = 0
 "fix 打开大文件时，语法高亮显示不完全
@@ -19,3 +22,6 @@ nmap <Leader>f :NERDTreeToggle<CR>
 nmap <Leader>p :CtrlP<CR>
 nmap <Leader>r :CtrlPFunky<CR>
 nmap <Leader>c :SyntasticCheck<CR>
+nmap <Leader>b :!php %<CR>
+imap jj <Esc>
+nnoremap <Leader>v mzgvy`zp
