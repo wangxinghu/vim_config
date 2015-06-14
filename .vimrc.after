@@ -1,0 +1,18 @@
+map <F10> <Esc>:syntax sync fromstart<Cr>
+let mapleader = ','
+let maplocalleader = '_'
+set tags=tags;
+set autochdir
+let g:acp_enableAtStartup = 0
+let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_camel_case_completion = 1
+let g:neocomplcache_enable_smart_case = 1
+let g:neocomplcache_enable_underbar_completion = 1
+let g:neocomplcache_enable_auto_delimiter = 1
+let g:neocomplcache_max_list = 15
+let g:neocomplcache_force_overwrite_completefunc = 1
+nmap <Leader>t :TagbarToggle<CR>
+nmap <Leader>f :NERDTreeToggle<CR>
+nmap <Leader>p :CtrlP<CR>
+nmap <Leader>r :CtrlPFunky<CR>
+nmap <Leader>c :SyntasticCheck<CR>
