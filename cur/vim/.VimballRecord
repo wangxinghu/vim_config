@@ -1,0 +1,2 @@
+tagbar.vmb: call delete('/Users/wangxinghu/.vim/README.md')|call delete('/Users/wangxinghu/.vim/autoload/tagbar.vim')|call delete('/Users/wangxinghu/.vim/doc/tagbar.txt')|call delete('/Users/wangxinghu/.vim/plugin/tagbar.vim')|call delete('/Users/wangxinghu/.vim/syntax/tagbar.vim')
+ZoomWin.vba: call delete('/Users/wangxinghu/.vim/plugin/ZoomWinPlugin.vim')|call delete('/Users/wangxinghu/.vim/doc/ZoomWin.txt')|call delete('/Users/wangxinghu/.vim/autoload/ZoomWin.vim')
