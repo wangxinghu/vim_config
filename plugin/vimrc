@@ -175,6 +175,7 @@
         Plugin 'MarcWeber/vim-addon-mw-utils'
         Plugin 'tomtom/tlib_vim'
         Plugin 'mileszs/ack.vim'
+        Plugin 'dyng/ctrlsf.vim'
     " }
 
     " General {
@@ -201,6 +202,7 @@
         Plugin 'flazz/vim-colorschemes'
         Plugin 'mbbill/undotree'
         Plugin 'nathanaelkane/vim-indent-guides'
+        Plugin 'hellotomcat/supersearch'
         "Plugin 'vim-scripts/restore_view.vim'
         "Plugin 'mhinz/vim-signify'
         "Plugin 'tpope/vim-abolish.git'
@@ -329,7 +331,7 @@
     let mapleader = ','
     let maplocalleader = '_'
     set tags=tags;
-    set autochdir
+    "set autochdir
     let g:acp_enableAtStartup = 0
     let g:neocomplcache_enable_at_startup = 1
     let g:neocomplcache_enable_camel_case_completion = 1
@@ -361,6 +363,7 @@
     nmap <Leader>c :SyntasticCheck<CR>
     nmap <Leader>d :syntax sync fromstart<CR>
     nmap <Leader>b :!php %<CR>
+    nnoremap <C-F>f :CtrlSF<CR>
     imap jj <Esc>
     nnoremap <Leader>v mzgvy`zp
 
@@ -378,4 +381,5 @@
     "    endif
     "    set csverb
     "endif
+    "nmap <Leader>add :cs add ./cscope.out .<CR><CR><CR> :cs reset<CR>
 " }
