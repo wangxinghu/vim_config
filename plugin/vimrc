@@ -176,6 +176,7 @@
         Plugin 'tomtom/tlib_vim'
         Plugin 'mileszs/ack.vim'
         Plugin 'dyng/ctrlsf.vim'
+        Plugin 'larrupingpig/vimgdb-for-vim7.4'
     " }
 
     " General {
@@ -203,6 +204,7 @@
         Plugin 'mbbill/undotree'
         Plugin 'nathanaelkane/vim-indent-guides'
         Plugin 'hellotomcat/supersearch'
+        Plugin 'vim-scripts/a.vim'
         "Plugin 'vim-scripts/restore_view.vim'
         "Plugin 'mhinz/vim-signify'
         "Plugin 'tpope/vim-abolish.git'
@@ -228,6 +230,7 @@
         "Plugin 'tpope/vim-commentary'
         Plugin 'godlygeek/tabular'
         Plugin 'majutsushi/tagbar'
+        Plugin 'brookhong/DBGPavim'
     " }
 
     " Snippets & AutoComplete {
@@ -346,6 +349,8 @@
     let g:airline#extensions#tabline#show_buffers = 0
     let g:airline#extensions#tabline#show_tabs = 0
     let g:airline#extensions#tabline#buffer_idx_mode = 1
+    let g:dbgPavimPort = 8989
+    let g:dbgPavimBreakAtEntry = 0
     nmap <leader>1 <Plug>AirlineSelectTab1
     nmap <leader>2 <Plug>AirlineSelectTab2
     nmap <leader>3 <Plug>AirlineSelectTab3
