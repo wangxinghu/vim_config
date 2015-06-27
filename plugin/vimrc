@@ -350,7 +350,10 @@
     let g:airline#extensions#tabline#show_tabs = 0
     let g:airline#extensions#tabline#buffer_idx_mode = 1
     let g:dbgPavimPort = 8989
+    let g:dbgPavimMaxDepth = 99
     let g:dbgPavimBreakAtEntry = 0
+    "php -dxdebug.remote_autostart=1 -dxdebug.remote_port=8989 tttt.php
+    "url XDEBUG_SESSION_START=1
     nmap <leader>1 <Plug>AirlineSelectTab1
     nmap <leader>2 <Plug>AirlineSelectTab2
     nmap <leader>3 <Plug>AirlineSelectTab3
