@@ -151,6 +151,7 @@
     "set comments=sl:/*,mb:*,elx:*/  " auto format comment blocks
 
     autocmd BufNewFile,BufRead *.coffee set filetype=coffee
+    autocmd BufNewFile,BufRead *.md set filetype=markdown
 
     " Workaround vim-commentary for Haskell
     autocmd FileType haskell setlocal commentstring=--\ %s
@@ -314,7 +315,8 @@
 
     " Misc {
         "Plugin 'rust-lang/rust.vim'
-        "Plugin 'tpope/vim-markdown'
+        Plugin 'tpope/vim-markdown'
+        "Plugin 'plasticboy/vim-markdown'
         "Plugin 'spf13/vim-preview'
         "Plugin 'tpope/vim-cucumber'
         "Plugin 'cespare/vim-toml'
